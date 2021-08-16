@@ -1,0 +1,303 @@
+body{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+
+.container_main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #00BBEC;
+    margin-bottom: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.692);
+}
+.nav_left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav_left h1{
+    font-size: 20px;
+}
+.nav_left img{
+    width: 84px;
+}
+.nav_right{
+    margin-left: auto;
+}
+.nav_right li{
+    display: inline;
+}
+.nav_right a{
+     color: darkgray !important;
+     text-decoration: none !important;
+     font-size: 18px !important;
+}
+.nav_right a:hover{
+    border-bottom: 2px solid rebeccapurple !important;
+    padding-bottom: 10px !important;
+}
+.nav_right-superior-links{
+    margin-right: 10px;
+}
+
+.translate_header{
+    color: rebeccapurple;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.intro{
+    margin-top:5px;
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.692),rgba(1, 146, 224, 0.329)), url(../images/services-bg.jpg);
+    background-size: cover;
+    background-position:left;
+    height: 30vh;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.intro h2{
+    color:rgba(102, 51, 153, 0.733);
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+.services_main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.div_1{
+    /* border:2px solid blue; */
+    width: 310px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    padding: 3px;
+    background-color: whitesmoke;
+    /* margin-right: 30px; */
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.774);
+    height: 40vh;
+}
+
+.div_2{
+    width:310px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    padding: 3px;
+    background-color: whitesmoke;
+    /* margin-right: 30px; */
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.774);
+    height: 40vh;
+}
+
+.div_3{
+    width:310px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    padding: 3px;
+    background-color: whitesmoke;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.774);
+    height: 40vh;
+    margin: 2px;
+}
+
+.div_4{
+    width:310px;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    padding: 3px;
+    background-color: whitesmoke;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.774);
+    height: 40vh;
+    margin: 2px;
+}
+
+
+.text p,
+.text h2{
+    text-align: center;
+}
+.text h2{
+    color: rebeccapurple;
+}
+.image{
+    background-image: url(../images/cryproservices.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 177px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 2s;
+}
+
+.image2{
+    background-image: url(../images/realestate.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 177px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 2s;
+}
+
+.image3{
+    background-image: url(../images/retirement.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 177px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 2s;
+}
+
+.image4{
+    background-image: url(../images/company3.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 119px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 2s;
+}
+
+
+.image:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover{
+    opacity:.9;
+}
+.image span,
+.image2 span,
+.image3 span,
+.image4 span{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 18px;
+    border-top-left-radius: 70px;
+    opacity: 0;
+    transition: all 2s;
+    font-size: 18px;
+}
+.image a,
+.image2 a,
+.image3 a,
+.image4 a{
+    text-decoration: none;
+    color: white;
+}
+.image span:hover,
+.image2 span:hover,
+.image3 span:hover,
+.image4 span:hover{
+    opacity: 1;
+    animation: moveinright 1s ease-in;
+}
+
+@keyframes moveinright{
+    0%{
+        opacity: 0;
+        transform: translateX(3.5px);
+    }
+    80%{
+        opacity: .7;
+        transform: translateX(3px);
+    }
+    90%{
+        opacity: .9;
+        transform: translateX(-1px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.login_intro{
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.692),rgba(1, 146, 224, 0.329)),url(../images/company3.jfif);
+    background-position:top;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid rebeccapurple;
+}
+
+.login_intro-left{
+    color: rebeccapurple;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.login_intro-right{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.login_intro-right button{
+    padding: 15px 40px;
+    font-family: monospace;
+    color: rebeccapurple;
+    border-color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+.login_first-button{
+    margin-bottom: 6px;
+}
+.contact_intro{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #00BBEC;
+}
+.contact_intro-bottom{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact_intro img{
+    width: 64px;
+}
+.contact_intro-top h3{
+    font-size: 12px;  
+}

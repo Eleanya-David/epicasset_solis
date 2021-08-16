@@ -1,0 +1,42 @@
+@media only screen and (max-width:890px){
+    .general:not(:last-child){
+        margin-right: 20px;
+    }
+
+    .intro h2{
+        font-size: 15px;
+    }
+
+    .transaction-intro h4 {
+        font-size: 11px;
+    }
+    .div_1{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }    
+    .div_2{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .services_main{
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .div_1,
+    .div_2,
+    .div_3{
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .nav_right a{
+        font-size: 13.7px;
+    }
+
+    .plan_1,
+    .plan_2,
+    .plan_3{
+        margin-right: 0px;
+    }
+}

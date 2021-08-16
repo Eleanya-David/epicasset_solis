@@ -1,0 +1,75 @@
+
+@media only screen and (max-width:883px){
+
+        .intro h2{
+            font-size: 18px;
+        }
+
+        .div_1{
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }    
+        .div_2{
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .div_3 {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .services_main{
+            flex-flow: column wrap;
+            justify-content: center;
+        }
+        .div_1,
+        .div_2,
+        .div_3,
+        .div_4{
+            width: 82% ;
+            height: 65vh;
+        }
+
+        .nav_right a{
+            font-size: 13.7px !important;
+        }
+        .text p,
+        .text h2{
+            font-size: 11px;
+        }
+        .goggle h2{
+            font-size: 6px;
+       }
+
+
+       .image span,
+        .image2 span,
+        .image3 span,
+        .image4 span{
+            background-color: rgba(0, 0, 0, 0.808);
+            padding: 13px;
+            border-top-left-radius: 40px;
+            opacity: 1;
+            transition: all 2s;
+            font-size: 14px;
+        }
+        .image a,
+        .image2 a,
+        .image3 a,
+        .image4 a{
+            text-decoration: none;
+            color: white;
+        }
+        .image span:hover,
+        .image2 span:hover,
+        .image3 span:hover,
+        .image4 span:hover{
+            opacity: 1;
+            animation: moveinright 1s ease-out;
+        }
+
+        .image,.image2,.image3{
+            width: 100%;
+            height:30vh
+        }
+
+}

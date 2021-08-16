@@ -1,0 +1,247 @@
+body{
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #00BBEC;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+    box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.692);
+}
+.nav_left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav_left h1{
+    font-size: 20px;
+}
+.nav_left img{
+    width: 84px;
+}
+.nav_right{
+    margin-left: auto;
+}
+.nav_right li{
+    display: inline;
+}
+.nav_right a{
+     color: darkgray;
+     text-decoration: none;
+     font-size: 18px;
+}
+.nav_right a:hover{
+    border-bottom: 2px solid rebeccapurple;
+    padding-bottom: 10px;
+}
+.nav_right-superior-links{
+    margin-right: 10px;
+}
+.name{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h2{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.name img{
+    width: 100px;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+img{
+    width: 104px;
+}
+
+.text-center{
+    color: rebeccapurple;
+    text-align: center;
+}
+.deposit-area{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 120px;
+    box-shadow: 6px 12px 26px rgba(0, 0, 0, 0.801);
+    border-radius: 7px;
+    padding: 10px;
+}
+.header{
+    margin-bottom: 10px;
+}
+.select{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+    border: 3px dashed rgba(0, 189, 236, 0.822);
+    box-sizing: border-box;
+}
+.select-main{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+
+}
+.select-main button{
+    font-family: monospace;
+    padding: 20px;
+    width: 200px;
+    border-radius: 6px;
+    color: rebeccapurple;
+}
+.select-minor{
+   background-color: white;
+}
+.minor-bit,
+.minor-ethe{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center ;
+    align-items: center ;
+}
+.minor-bit img,
+.minor-ethe img{
+    width: 170px;
+}
+
+.minor-ethe{
+    display: none;
+}
+
+.minor-bit input, 
+.minor-ethe input{
+    font-family: monospace;
+    color: rebeccapurple;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.minor-bit button,
+.minor-ethe button{
+    font-family: monospace;
+    color: #00BBEC;
+    padding: 10px;
+}
+
+.ref{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ref button{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #131722;
+    border-color: white;
+    color:#00BBEC;
+    font-size: 15px;
+    box-shadow: 4px 7px 16px rgba(0, 0, 0, 0.589);
+}
+
+@media only screen and (max-width:790px){
+    .deposit-area{
+        padding: 0px;
+    }
+    .select-main{
+        padding: 0px;
+    }
+    .select{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .minor-bit img,
+    .minor-ethe img{
+        width: 150px;
+    }
+}
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+  

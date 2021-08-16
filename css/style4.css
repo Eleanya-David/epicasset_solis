@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  /* Add padding to containers */
+  .container {
+    /* padding: 16px; */
+    background-color: white;
+  }
+
+  p{
+      font-size: 18px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  img {
+    width: 110px;
+  }  
+  label {
+    font-size: 17px;
+  }
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=email] {
+    padding: 11px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 260px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  input[type=text]::placeholder,
+  input[type=mail]::placeholder,
+  input[type=password]::placeholder{
+      font-size: 15px;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  b{
+      font-size: 20px;
+      font-weight: 100;
+  }
+
+
+
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #00BBEC;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+
+  .home_button {
+    background-color: #00BBEC;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.9;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .container_signin {
+    padding: 6px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .inputs {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+  }
+  .input_one, .input_two {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 8px;
+  }
+
+
+
+
+  @media only screen and (max-width:790px){
+
+    .registerbtn,.home_button{
+        background: coral;
+    }
+ 
+   }

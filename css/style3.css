@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  img {
+    width: 160px;
+    /* height: 90px; */
+  }
+  /* Add padding to containers */
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+  }
+  h1{
+    font-size: 20px;
+  }
+
+  p{
+      font-size: 17px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=email] {
+    /* width: 100%; */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 280px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  input[type=text]::placeholder,
+  input[type=mail]::placeholder,
+  input[type=password]::placeholder{
+      font-size: 14 px;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  b{
+      font-size: 17px;
+  }
+
+
+
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #00BBEC;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100%;
+    opacity: 0.9; 
+  }
+
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+
+  .home_button {
+    background-color: #00BBEC;
+    color: white;
+    padding: 16px 20px;
+    width: 450px;
+    border: 2px solid #00BBEC;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.9;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .container_signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .avatar{
+      margin: 16px;
+  }
+
+
+  #imglink{
+      margin: 16px;
+      padding: 7px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @media only screen and (max-width:790px){
+    .container{
+      padding: 0px;
+    }
+
+   .registerbtn,.home_button{
+       background: coral;
+       border-color: coral;
+       width: 350px;
+   }
+
+   .container_signin {
+     width: 350px;
+   }
+
+   input {
+     width: 50vw;
+   }
+
+  }
+
+  .upper, .lower {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .upper_one, .upper_two {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 10px;
+  }
+
+  .lower_one, .lower_two {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 10px;
+  }

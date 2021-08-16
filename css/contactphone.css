@@ -1,0 +1,71 @@
+@media only screen and (max-width:790px){
+
+    .form input,
+    .form textarea{
+        width: 300px;
+        padding: 15px 40px;
+    }
+
+    .ref{
+        width: 300px ;
+        padding: 15px 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ref_left,
+    .ref_right{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .ref_left > div,
+    .ref_right > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ref_left-left,
+    .ref_left-right,
+    .ref_right-left,
+    .ref_right-right{
+        margin-bottom: 20px;
+    }
+    .nav_right a{
+        font-size: 13.7px !important;
+    }    
+    .ref img{
+        width: 44px !important;
+    }
+
+    .ref_left-left{
+        margin-right: 0px;
+    }
+    .ref_right-left{
+        margin-right: 0px;
+    }
+
+    .form-container{
+        align-items: flex-start;
+    }
+
+    .form input,
+    .form textarea{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid black;
+}
+
+.ref{
+    width: 100%;
+    padding: 6.5px;
+}
+
+
+
+
+/* end of media query */
+
+}

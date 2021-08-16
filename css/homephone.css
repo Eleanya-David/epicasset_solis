@@ -1,0 +1,59 @@
+@media only screen and (max-width:780px){
+    .plan_1,
+    .plan_2,
+    .plan_3{
+        margin: 6px;
+    }
+    .intro{
+        height: 580px;
+    }
+    .intro_headers h1{
+        margin: 7px;
+        font-size: 29px !important;
+    }
+    .about_intro{
+        /* box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.801); */
+    }
+    .login_intro-left{
+        margin-right: 0px;
+        font-size: 13.7px;
+    }
+    .login_intro button{
+        padding: 10px 40px;
+    }
+    .nav_left h1{
+        font-size: 17px;
+    }
+
+    .nav_right a{
+        font-size: 13.5px !important; 
+    }
+    
+    .goggle h2{
+        font-size: 6px;
+    }
+
+    .plan_general {
+        height: 50vh;
+    }
+    .nav_right{
+        width: 100%;
+        /* border: 2px solid black; */
+        margin: 0px;
+        margin-right: 0px;
+        margin-left: 0px !important;
+    }
+    .nav_left img{
+        width:50px;
+    }
+
+    .nav_right-superior-links{
+        margin-bottom: 30px !important;
+    }
+
+    
+
+
+
+
+}

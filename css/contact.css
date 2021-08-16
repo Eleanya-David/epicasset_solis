@@ -1,0 +1,188 @@
+body{
+    font-family: monospace ;  
+    box-sizing: border-box ;
+}
+
+.container_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #00BBEC;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+    box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.692);
+}
+.nav_left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav_left h1{
+    font-size: 20px;
+}
+.nav_left img{
+    width: 84px;
+}
+.nav_right{
+    margin-left: auto;
+}
+.nav_right li{
+    display: inline;
+}
+.nav_right a{
+     color: darkgray !important;
+     text-decoration: none !important;
+     font-size: 18px !important;
+}
+.nav_right a:hover{
+    border-bottom: 2px solid rebeccapurple !important;
+    padding-bottom: 10px !important;
+}
+.nav_right-superior-links{
+    margin-right: 10px;
+}
+
+.translate_header{
+    color: rebeccapurple;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.contact{
+    margin-top:100px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.692),rgba(1, 146, 224, 0.329)), url(../images/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    border-bottom: 2px solid #00BBEC;
+    color: darkgrey;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.form input,
+.form textarea{
+    width: 420px;
+    padding: 15px 40px;
+    font-family: cursive;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.ref{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #ccc;
+    box-shadow: 3px 6px 12px black;
+    padding: 15px 40px;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.ref h3{
+    font-family: cursive;
+}
+.ref_left,
+.ref_right{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    flex-flow: column wrap;
+}
+
+.ref_left > div,
+.ref_right > div{
+    font-size: 10px;
+    color: rebeccapurple;
+}
+
+.ref_left-right a{
+     text-decoration: none;
+     color: rebeccapurple;
+}
+
+
+
+
+.login_intro{
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.692),rgba(1, 146, 224, 0.329)),url(../images/company3.jfif);
+    background-position:top;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid rebeccapurple;
+}
+
+.login_intro-left{
+    color: rebeccapurple;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.login_intro-right{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.login_intro-right button{
+    padding: 15px 40px;
+    font-family: monospace;
+    color: rebeccapurple;
+    border-color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+.login_first-button{
+    margin-bottom: 6px;
+}
+.contact_intro{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #00BBEC;
+}
+.contact_intro-bottom{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact_intro img{
+    width: 64px;
+}
+.contact_intro-top h3{
+    font-size: 12px;  
+}

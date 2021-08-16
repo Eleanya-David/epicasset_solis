@@ -1,0 +1,50 @@
+/* css style sheet */
+
+#main-wrapper{
+    margin-top: 500px;
+    width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    /* border-radius:10px; */
+    /* border: 2px solid #95a5ab; */
+}
+
+#logout_btn{
+    margin-top: 10px;
+    background-color:#00BBEC;
+    padding: 7px;
+    color: white;
+    width: 70%;
+    text-align:center;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-color: #00bbec;
+    /*box-shadow: 2px 2px 1px  black;
+    */:;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.avatar{
+    width:162px;
+    height: 110px;
+    /* border: 2px solid #ccc; */
+    border-radius: 50px;
+    box-shadow: 3px 6px 20px black;
+}
+
+h1{
+    font-family: cursive;
+}
+
+.myform {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
